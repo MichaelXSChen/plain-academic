@@ -6,8 +6,9 @@
 -->
 
 <html lang="en">
+
 <head>
-  <title>John Doe</title>
+  <title>Xusheng Chen</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -15,99 +16,276 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
 
 
-<!-- Navigation -->
-	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-	  <div class="container">
-		<div class="navbar-header">
-		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-		</div>
-
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		  <ul class="nav navbar-nav">
-				  <li><a href="index.html">Home</a></li>
-				  <li><a href="#">Projects</a></li>
-				  <li><a href="#publications">Publications</a></li> 
-				  <li><a href="#">CV</a></li> 
-		  </ul>
-		</div>
-	  </div>
-	</nav>
-  
-  <!-- Page Content -->
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
     <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
 
-        <div class="row">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="https://michaelxschen.github.io/CV/cv.pdf" target="_blank">CV</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-            <!-- Entries Column -->
-            <div class="col-md-8" style="height: 100vh;">
-                
-                <!-- Main Image -->
-                <img class="img-responsive" src="photo.gif" alt=""><br>
-                
-                <div style="margin-top:3%; text-align:justify;">                
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing <a href="#">elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					
-					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-					
-					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                </div>
-            </div> 
+  <!-- Page Content -->
+  <div class="container">
 
-            <!-- Contact Info on the Sidebar -->
-            <div class="col-md-4">
-                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>John Doe</b></div><br>
-                <p><b>john at doe.com</b><br>
-                <p>Random Department<br>
-                University of Randomness<br>
-                Street<br>
-                City <br>
-                Country<br>
-                </p>
-            </div>
-            
-            
-            <!-- Links on the Sidebar -->
-            <div class="col-md-4" style="margin-top:2%">
-              <dd><a href="#">Google Scholar</a></dd> 
-              <dd><a href="#">Twitter</a></dd>
-              <dd><a href="#">LinkedIn</a></dd>
-            </div>
-            
-            
-            <!-- Publications -->
-            <div class="col-md-8" style="height: 100vh;">    
-                <h2 id="publications">Publications</h2>
-                
-                <strong>Peer-reviewed</strong><br/>
-                <ul>
-                <li class="paper" words="add, your, keywords, here"><a href="#">Full title</a> Names of the authors</li>
-                </ul>
-            
-                <strong>Technical Reports</strong><br/>
-                <ul>
-                <li class="paper" words="add, your, keywords, here"><a href="#">Full title</a>. Details of the report</li>
-                </ul>
-            </div>
+    <div class="row">
+      <div class="col-md-3; col-sm-3">
+        <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Xusheng Chen</b></div><br>
+        <div class="profile-img">
+          <img src="img/profile.jpg" class="img-responsive" alt="" />
+        </div>
+        <br>
+        <p>Ph.D. candidate at <br>
+          the University of Hong Kong<br>
+        </p>
+        <p><b>xschen at cs.hku.hk</b><br>
+          <dd><a href="https://scholar.google.com/citations?user=iI3xS3MAAAAJ&hl=en">Google Scholar</a></dd>
+          <dd><a href="https://github.com/MichaelXSChen">Github</a></dd>
+      </div>
 
+
+      <!-- Entries Column -->
+      <!-- <div class="col-md-9" style="height: 100vh;"> -->
+      <div class="col-md-9">
+
+        <!-- Main Image -->
+        <!-- <img class="img-responsive" src="photo.gif" alt=""><br> -->
+
+        <div class="col-md-8" style="margin-top:3%; text-align:justify;">
+          <p>
+            I am currently a fourth year PhD student in the Computer Science
+            Department at the University of Hong Kong. My research focuses
+            distributed consensus protocols, fault tolerance
+            systems, distributed transaction processing systems, and
+            blockchain systems.
+          </p>
+          <p>
+            My research interests also include building
+            highly-efficient distributed systems leveraging datacenter
+            networking hardware (e.g., RDMA) and building secure distributed
+            systems leveraging hardware trusted execution environments
+            (e.g., Intel SGX).
+          </p>
+          <p>
+            Before my current program, I received Bachelor of
+            Engineering degree from the University of Hong Kong with
+            first class honour. I also enjoyed a wonderful half-year
+            exchange program at UCSD during my undergraduate study.
+          </p>
+          <p>
+            I am from <a href="https://en.wikipedia.org/wiki/Shenyang" target="_blank">Shenyang</a>, a beautiful city in
+            northeast China.
+          </p>
+        </div>
+
+        <!-- <div class="col-md-8" style="height: 100vh;"> -->
+        <div class="col-md-8">
+          <h3 id="publications">Publications</h3>
+
+          <ul>
+            <li class="paper">
+              <a>Achieving Low Tail-latency and High Scalability for Serializable Transactions in Edge Computing </a>
+              <br>
+                <b>Xusheng Chen</b>, Haoze Song, Jianyu Jiang, Chaoyi Ruan, Cheng Li, Sen Wang, Gong Zhang, Reynold Cheng, Heming Cui
+              <br>
+              <p> In Proceedings of the European Conference on Computer Systems 2021 (<b>EuroSys '21</b>, accepted)
+              </p>
+            </li>
+
+
+            <li class="paper">
+              <a>HAMS: High Availability for Distributed Machine Learning Service Graphs </a>
+              <br>
+                Shixiong Zhao, <b>Xusheng Chen</b>, Cheng Wang, Fanxin Li, Ji Qi, Heming Cui, Cheng Li, Sen Wang
+              <br>
+              <b> * Parallel first author (annotated in the paper's first page)</b>
+              <p> In Proceedings of the 50th IEEE/IFIP International Conference on Dependable Systems and Networks  (<b>DSN '20</b>)
+              </p>
+            </li>
             
+            
+            
+            <li class="paper">
+              <a>UPA: An Automated, Accurate and Efficient Differentially Private Big-data Mining System </a>
+              <br>
+                Tzs On Li, Jianyu Jiang, Ji Qi, Chi Chiu So, Jiacheng Ma, <b>Xusheng Chen</b>, Tianxiang Shen, Heming Cui, Yuexuan Wang, Peng Wang
+              <br>
+              <p> In Proceedings of the 50th IEEE/IFIP International Conference on Dependable Systems and Networks  (<b>DSN '20</b>)
+              </p>
+            </li>
+
+            <li class="paper">
+              <a>DAENet: Making Strong Anonymity Scale in a Fully Decentralized Network </a>
+              <br>
+                Tianxiang Shen, Jianyu Jiang, Yunpeng Jiang, <b>Xusheng Chen</b>, Ji Qi, Shixiong Zhao, Fengwei Zhang, Xiapu Luo, Heming Cui
+              <br>
+              <p> IEEE Transactions on Dependable and Secure Computing 2020  (<b>TDSC '20</b>)
+              </p>
+            </li>
+
+            <li class="paper">
+              <a>Efficient and DoS-resistant Consensus for permissioned blockchains </a>
+              <br>
+                <b>Xusheng Chen</b>, Shixiong Zhao, Ji Qi, Cheng Wang, Haoze Song, Jianyu Jiang, Tsz On Li, T.-H. Hubert, Fengwei Zhang, Xiapu Luo, Sen Wang, Gong Zhang, Heming Cui
+              <br>
+              <p> <a href="https://arxiv.org/abs/1808.02252">arXiv:1808.02252</a>
+            </li>
+
+
+            <li class="paper">
+              <a>Uranus: Simple, Efficient SGX Programming and Its Applications </a>
+              <br>
+                Jianyu Jiang, <b>Xusheng Chen</b>, Tzs On Li, Cheng Wang, Tianxiang Shen, Shixiong Zhao, Heming Cui, Cho-Li Wang, Fengwei Zhang
+              <br>
+              <p> In Proceedings of the 15th ACM ASIA Conference on Computer and Communications Security  (<b>ASIACCS '20</b>)
+              </p>
+            </li>
+
+
+            <li class="paper">
+              <a>Fulva: Efficient Live Migration for In-memory Key-Value Stores with Zero Downtime </a>
+              <br>
+                Jiewen Hai, Cheng Wang, <b>Xusheng Chen</b>, Tsz On Li, and Heming Cui
+              <br>
+              <p> In Proceedings of the 38th International Symposium on Reliable Distributed Systems  (<b>SRDS '19</b>)
+              </p>
+            </li>
+
+
+
+
+            <li class="paper">
+              <a>PLOVER: Fast, Multi-core Scalable Virtual Machine Fault-tolerance</a>
+              <br>
+                Cheng Wang, <b>Xusheng Chen</b>, Weiwei Jia, Haoran Qiu, Boxuan Li, Shixiong Zhao, and Heming Cui 
+              <br>
+              <b> * Parallel first author (annotated in the paper's first page)</b>
+              <p> In Proceedings of the 15th USENIX Symposium on Networked Systems Design and Implementation 2018 (<b>NSDI '18</b>)
+              </p>
+            </li>
+
+            <li class="paper">
+              <a>Effectively Mitigating I/O Inactivity in vCPU Scheduling</a>
+              <br>
+                Weiwei Jia, Cheng Wang, <b>Xusheng Chen</b>, Jianchen Shan, Xiaowei Shang, Heming Cui, Xiaoning Ding, Luwei Cheng, F.C.M. Lau, Yuexuan Wang, and Yuangang Wang
+              <br>
+              <p> In Proceedings of the 2018 USENIX Annual Technical Conference  (<b>ATC '18</b>)
+              </p>
+            </li>
+
+            <li class="paper">
+              <a>A Fast, General Storage Replication Protocol for Active-Active Virtual Machine Fault Tolerance</a>
+              <br>
+                Cheng Wang, <b>Xusheng Chen</b>, Zixu Wang, Youwei Zhu, Heming Cui
+              <br>
+              <p> Proceedings of the IEEE 23rd International Conference on Parallel and Distributed Systems   (<b>ICPADS '18</b>)
+              </p>
+            </li>
+
+
+
+
+            <li class="paper">
+              <a>APUS: Fast and Scalable PAXOS on RDMA</a>
+              <br>
+                Cheng Wang, Jianyu Jiang, <b>Xusheng Chen</b>, Ning Yi, and Heming Cui 
+              <br>
+              <p> In Proceedings of the ACM Symposium on Cloud Computing 2017 (<b>SoCC '17</b>)
+              </p>
+            </li>
+          </ul>
+
         </div>
 
 
+        <div class="col-md-8">
+          <h3 id="works">Work Experience</h3>
+
+          <ul>
+            <li>
+              Researcher Assistant at Center of Cloud Computing \& Big Data, Lenovo, Hong Kong. Dec 2015 - Jul 2016.
+            </li><br>
+            <li>
+              Student Trainee at Global Banking and Markets, HSBC, Hong Kong. <br>Aug 2015 - Nov 2015.
+            </li><br>
+            <li>
+              Summer Intern at Laboratory of Complex Systems and Intelligence Science, Institute of Automation, Chinese Academy of Science. June 2014 - Aug 2014.
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-8">
+          <h3 id="patents">Patents</h3>
+
+          <ul>
+            <li>
+              A Distributed Fault-tolerant Storage System via Virtualized State Machine Replication. Ref: 85714660PCT01.
+            </li>
+            <br>
+            <li>
+              An Efficient and DoS-resistant Consensus Protocol for Permissioned Blockchain Systems. Ref: 202010247629.1.
+            </li>
+            <br>
+            <li>
+              An Efficient, Secure Big-data Processing and Programming System based on Trusted Execution Environment. Ref: 202010366539.4. <br>
+            </li>
+            <br>
+            <li>
+              A system in achieving low tail-latency and high scalability for serializable transactions in edge computing.
+            </li>
+            <br>
+            <li>
+              A high-performance DNN training system with efficient and scalable pipelined parallelism on GPUs.
+            </li>
+            <br>
+            <li>
+              A High-throughput, Low-latency Permissioned Blockchain Framework for Datacenter Networks.
+            </li>
+            <br>
+            <li>
+              A decentralized, secure and reliable network communication system via SGX.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Contact Info on the Sidebar -->
+
+
+
+      <!-- Publications -->
+
+
     </div>
-    <!-- /.container -->
-    
-    <!-- Other people may like it too! -->
-    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
-    
+
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Other people may like it too! -->
+  <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain
+    Academic</a>
+
 </body>
 
 </html>
